@@ -1,0 +1,9 @@
+//Example 2 - TemplateView within view.py
+<hr>
+<a href="{% url 'classes:go-to-very' %}">Very</a>
+<hr>
+{{data}}
+<hr>
+{{posts.name}}
+<hr>
+<a href="{% url 'classes:redirect-task' pk=posts.id %}">{{posts.name}}</a>
